@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: helvetica;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    background-color: #0396FF;
+}
+
+.container{
+    background-color: #006494;
+    margin-left: auto;
+    margin-right: auto;
+    width: 680px;
+    padding: 20px 30px;
+    margin-top: 2vh;
+    border-radius: 15px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 3vh;
+}
+
+label {
+    font-weight: bold;
+    color: white;
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+input {
+    padding: 8px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"]{
+    margin-right:8px ;
+}
+
+input[type="radio"]{
+    margin-right:8px;
+    color: #fff;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="number"], .campo select{
+    display: block;
+    border: none;
+    background-color: white;
+    width: 100%;
+    outline: none;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 25px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #BC78EC;
+    font-weight: bold;
+    width: 100%;
+}
+
+textarea{
+    border: none;
+    outline: none;
+}
+
+.campo select{
+    padding: 10px;
+}
+
+
+
+
+

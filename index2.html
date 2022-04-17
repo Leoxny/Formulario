@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+        <h1>Formulário de pesquisa</h1>
+
+<body>
+
+    <main class="container">
+        <form action="">
+
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+            </div>
+
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" autocomplete="off" placeholder="Digite seu email">
+            </div>
+
+            <div class="campo">
+                <label for="idade">Idade</label>
+                <input type="number" id="idade" name="idade" placeholder="Idade">
+            </div>
+
+            <div class="campo">
+                <label for="função">Qual opção melhor descreve sua função atual?</label><br>
+                <select id="função">  
+                    <option selected disabled value="função">Selecione</option>
+                    <option>Estudante</option>
+                    <option>Trablhando em tempo integral</option>
+                    <option>Aprendiz em tempo integral</option>
+                    <option>Prefiro não dizer</option>
+                    <option>Outro</option>
+                </select> 
+            </div><br><br>
+
+            <div class="campo">
+                <label>Sexo</label><br>
+                <label>
+                    <input type="radio" name="sexo" value="masculino" checked>Msaculino
+                </label>
+                <label><br>
+                    <input type="radio" name="sexo" value="feminino" checked>Feminino
+                </label>
+                <label><br>
+                    <input type="radio" name="sexo" value="outro" checked>Outro
+                </label>
+            </div><br>
+
+            <div class="campo">
+                <label>O que você gostaria de melhorar?</label><br>
+                <input type="checkbox" name="projeto1" id="projeto1" value="front-end">
+                <label for="projeto1">Projetos Front-end</label><br>
+                <input type="checkbox" name="projeto2" id="projeto2" value="back-end">
+                <label for="projeto2">Projetos Back-end</label><br>
+                <input type="checkbox" name="projeto3" id="projeto3" value="dados">
+                <label for="projeto3">Visualização de dados</label><br>
+                <input type="checkbox" name="projeto4" id="projeto4" value="desafio">
+                <label for="projeto4">Desafios</label><br>
+                <input type="checkbox" name="projeto5" id="projeto5" value="codigo">
+                <label for="projeto5">Comunidade de código aberto</label><br>
+                <input type="checkbox" name="projeto6" id="projeto6" value="gitter">
+                <label for="projeto6">Salas de ajuda Gitter</label><br>
+                <input type="checkbox" name="projeto7" id="projeto7" value="videos">
+                <label for="projeto7">Vídeos</label><br>
+                <input type="checkbox" name="projeto8" id="projeto8" value="cidades">
+                <label for="projeto8">Encontros de cidades</label><br>
+                <input type="checkbox" name="projet9" id="projeto9" value="wiki">
+                <label for="projeto9">Wiki</label><br>
+                <input type="checkbox" name="projeto10" id="projeto10" value="forum">
+                <label for="projeto10">Fórum</label><br>
+                <input type="checkbox" name="projeto11" id="projeto11" value="cursos">
+                <label for="projeto11">Cursos adicionais</label><br>
+            </div>
+
+            <div class="campo">
+                <br>
+                <label for="">Algum comentário ou sugestão?</label><br>
+                <textarea id="comentario" rows="8" name="comentario" style="width: 100%" placeholder="Digite seu comentário aqui"></textarea><br><br>
+            </div>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </main>
+    
+</body>
+</html>
